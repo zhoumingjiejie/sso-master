@@ -26,3 +26,4 @@
 
 #4 账号验证
 sso-server模块UserServiceImpl中，默认使用user、123456测试
+登录地址：http://127.0.0.1:8081/admin/login 
