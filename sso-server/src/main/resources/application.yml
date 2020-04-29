@@ -1,0 +1,21 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /sso
+spring:
+  profiles:
+    active: redis
+
+  ### freemarker
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .ftl
+    charset: UTF-8
+    request-context-attribute: request
+
+  ### resources
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/static/
+

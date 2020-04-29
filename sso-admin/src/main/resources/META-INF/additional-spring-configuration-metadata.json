@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "web.maps.sso.server",
+      "type": "java.lang.String",
+      "description": "Description for web.maps.sso.server."
+    },
+    {
+      "name": "web.maps.sso.logout",
+      "type": "java.lang.String",
+      "description": "Description for web.maps.sso.logout."
+    },
+    {
+      "name": "web.maps.sso.excludedpaths",
+      "type": "java.lang.String",
+      "description": "Description for web.maps.sso.excludedpaths."
+    }
+  ] }
